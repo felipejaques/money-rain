@@ -44,7 +44,4 @@ public class Usuario implements Serializable{
 
     @Column(name = "idCarteira", unique = true)
     private Long idCarteira;
-
-    @Column(name = "senhaUsuario", length=50)
-    private String senhaUsuario;
 }
